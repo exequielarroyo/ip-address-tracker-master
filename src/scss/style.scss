@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+@import "resets";
+@import "variables";
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -6,9 +10,29 @@
   color: hsl(228, 45%, 44%);
 }
 
-@import 'variables';
-
 body {
+  font-family: $font-family;
   color: invert($background);
   background-color: $background;
+  text-align: center;
+}
+
+header {
+  // background-image: url("~../../assets/images/pattern-bg.png");
+  // background-size: cover;
+  // background-repeat: no-repeat;
+}
+
+.root {
+  max-width: 1440px;
+}
+
+.card {
+  width: 100px;
+  // height: 100px;
+  // padding: 20px;
+  color: black;
+  background-color: white;
+  box-shadow: 0 5px 20px black;
+  border-radius: 20px;
 }
